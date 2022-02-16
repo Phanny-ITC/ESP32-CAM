@@ -44,12 +44,12 @@ static const char *TAG = "HTTP_CLIENT Handler";
 static const char *TAG3 = "Sending sendMessage";
 
 /*Telegram configuration*/
-#define TOKEN "5121756506:AAEx94Isxhp8Lxcy7AQhzTmk5pIVzcDkNNY"
+#define TOKEN "5121753452:ccEx94Isxhp8Lxcy7dfgzTmk5pIVzcthnNY"
 char url_string[512] = "https://api.telegram.org/bot";
 // Using in the task strcat(url_string,TOKEN)); the main direct from the url will be in url_string
 //The chat id that will receive the message
 #define chat_ID1 "@GROUP_NAME"
-#define chat_ID2 "-734164102"
+#define chat_ID2 "-734164003"
 
 /* Root cert for extracted from:
  *
